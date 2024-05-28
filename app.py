@@ -6,6 +6,10 @@ import gensim
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
 
 ps = PorterStemmer()
 
